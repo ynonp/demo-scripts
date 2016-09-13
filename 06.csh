@@ -4,7 +4,11 @@
 # in current folder, and arranges them
 # in folders according to the file extension
 #
+# Usage: 06.csh <folder>
+#
 set noclobber nonomatch
+
+cd "$1"
 
 set files = *.*
 set -f exts = ($files:ge)
