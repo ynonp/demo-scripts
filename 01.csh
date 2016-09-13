@@ -2,8 +2,8 @@
 set noclobber nonomatch
 
 # BSD Unix
-tail -r "$1"
+# tail -r "$1"
 
 # System V
-# tac "$1"
+tac "$1"
 

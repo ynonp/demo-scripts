@@ -1,7 +1,7 @@
 #!/bin/tcsh -f -e
 set noclobber nonomatch
 
-set fname = "$<"
+set fname = "$1"
 
 cat "$fname"
 wc -l "$fname"
