@@ -1,4 +1,5 @@
 #!/bin/tcsh -f -e
+# Show all files
 set noclobber nonomatch
 
 set files = *.*
