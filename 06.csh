@@ -6,6 +6,7 @@
 #
 # Usage: 06.csh <folder>
 #
+# modifying 06.csh
 set noclobber nonomatch
 
 cd "$1"
