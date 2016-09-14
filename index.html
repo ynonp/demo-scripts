@@ -1,10 +1,22 @@
 <!DOCTYPE html>
 <html>
-	<head>
-        <meta charset="utf-8" />
-		<title>Index</title>
-	</head>
-	<body>
-    <h1>Demo index.html</h1>		
-	</body>
+<head>
+<meta charset="utf-8" />
+<title>Index</title>
+</head>
+<body>
+  <h1>Demo index.html</h1>		
+  <p>Unix is so cool</p>
+  <pre>
+    <code>
+repeat $count shift remaining
+
+if ( $count == 1 ) then
+  grep -l $remaining[1] `$FIND . -type f -name '*.*'`
+else 
+  grep -l $remaining[1] `$FIND . $OPTS[2-]:gq`
+endif
+    </code>
+  </pre>
+</body>
 </html>
